@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forms</title>
+</head>
+
+<body>
+   <h2>This is HTML Forms tutorial</h2>
+   <form action="backend.php">
+     <!--Note:- it is not recommended to use br tag instead we have to use div tag to break any inputs. We should avoid using br tag as much as possible-->
+     <label for="name">Name :</label>
+     <div>
+       
+     
+     <input type="text" name="myName" id="name">
+     </div>
+     <br>
+     <div>
+       
+     <label for="number">Role :</label>
+      <input type="text" name="myRole">
+     </div>
+   <br>
+       
+    <div>
+      
+     <label for="email">Email :</label>
+     <input type="email" name="myEmail">
+      </div>
+      <br>
+      <div>
+     <label for="date">Date :</label>
+      <input type="date" name="myDate" id="">
+      </div>
+      <br>
+      <div>
+     <label for="bonus">Bonus :</label>
+      <input type="number" name="myBonus" id="">
+      </div>
+      <br>
+      <div>
+     <label for="are you eligible :">        Are you eligible : </label>
+ <input type="checkbox" name="myEligible" checked>
+      </div>
+      <br>
+      <div>
+        Gender : Male <input type="radio" name="myGender" id=""> 
+        
+        Female <input type="radio" name="myGender" id="">
+        Other <input type="radio" name="myGender" id="">
+      </div>
+      <br>
+      <div>
+        <br>
+       <div>
+      Write about yourself :   <br> <textarea name="" id="" cols="30" rows="10"></textarea>
+       </div>
+    
+      <input type="submit" value="Submit Now">
+      </div>
+<br>
+<label for="car">Car</label>
+<div>
+  <select name=""myCar id="car">
+    <option value="Indica" >Indica</option>
+    <option value="Swift" selected>Swift</option>
+  </select>
+</div>
+<br>
+      <div>
+       
+    
+      <input type="reset" value="Reset Now">
+      </div>
+   </form>
+</body>
+
+</html>
